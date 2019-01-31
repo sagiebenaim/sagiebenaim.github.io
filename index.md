@@ -1,6 +1,6 @@
 # About Me
 
-I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervison of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupevised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. 
+I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervison of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupevised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
 
 # Publications
 
