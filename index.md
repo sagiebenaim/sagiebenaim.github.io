@@ -1,7 +1,7 @@
 # About Me
 
 I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervison of Prof. Lior Wolf. 
-I am mainly interested in Unsupevised, Semi-Supervised and Self-Supervised Learning. Much of my work focuses on Generative Models, Image to Image translation and Domain Adaptation. I am also interested in security aspects of Machine Learning. 
+I am mainly interested in unsupevised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. 
 
 # Publications
 
