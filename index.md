@@ -29,13 +29,13 @@ S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable 
 
 # Talks
 
-One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and Technion, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_sided.pdf)
+One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and Technion, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_sided.pdf).
 
-One-Shot Unsupervised Cross Domain Translation (Technion, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_shot.pdf)
+One-Shot Unsupervised Cross Domain Translation (Technion, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_shot.pdf).
 
-Introduction to Generative Adversarial Networks (Elbit, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf)
+Introduction to Generative Adversarial Networks (Elbit, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf).
 
-Genreative Adversarial Networks for Image to Image Translation (Nexar, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf)
+Genreative Adversarial Networks for Image to Image Translation (Nexar, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf).
 
 
 # Teaching
