@@ -27,9 +27,11 @@ M. Michelashvili, S. Benaim, L. Wolf. Semi-Supervised Monaural Singing Voice Sep
 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
+# Talks
+
 # Teaching
 
-# Talks
+Spring 2019 - 0368-3312. Convolutional Neural Networks.
 
 # Awards
 
