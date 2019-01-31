@@ -47,7 +47,5 @@ Spring 2019 - 0368-3312. Convolutional Neural Networks.
 Awarded The Raymond and Beverly Sackler Excellence Scholarship for the Faculty of Exact Sciences (January 2018).
 
 # Contact me
-Add Image ![Image](src)
- 
-[sbenaim@mail.tau.ac.il](mailto:sbenaim@mail.tau.ac.il)
 
+Feel free to contact me at sbenaim at mail dot tau dot ac dot il
