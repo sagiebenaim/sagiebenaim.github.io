@@ -1,6 +1,6 @@
 # About Me
 
-I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervison of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupevised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
+I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervision of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
 
 # Publications
 
@@ -16,7 +16,7 @@ T. Galanti, S. Benaim, L. Wolf. Generalization Bounds for Unsupervised Cross-Dom
 
 S. Benaim, T. Galanti, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound).
 
-T. Galanti, L. Wolf, S. Benaim. The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings. In International Conference on LearningRepresentations (ICLR), 2018. [pdf](https://arxiv.org/pdf/1709.00074.pdf). 
+T. Galanti, L. Wolf, S. Benaim. The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings. In International Conference on Learning Representations (ICLR), 2018. [pdf](https://arxiv.org/pdf/1709.00074.pdf). 
 
 S. Benaim, L. Wolf. One-Sided Unsupervised Domain Mapping. In Neural Information Processing Systems Conference (NIPS), 2017. [pdf](https://arxiv.org/pdf/1706.00826.pdf), [code](https://github.com/sagiebenaim/DistanceGAN).
 - Presented as a Spotlight Presentation.
@@ -33,7 +33,7 @@ One-Shot Unsupervised Cross Domain Translation (Technion, 2019). [slides](https:
 
 Introduction to Generative Adversarial Networks (Elbit, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf).
 
-Genreative Adversarial Networks for Image to Image Translation (Nexar, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf).
+Generative Adversarial Networks for Image to Image Translation (Nexar, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf).
 
 One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and Technion, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_sided.pdf).
 
