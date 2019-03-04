@@ -29,6 +29,8 @@ S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable 
 
 # Talks
 
+New Capabilities in Unsupervised Image to Image Translation (Bar Ilan University, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/tree/presentations/new_capabilities.pdf)
+
 One-Shot Unsupervised Cross Domain Translation (Technion, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_shot.pdf).
 
 Introduction to Generative Adversarial Networks (Elbit, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf).
