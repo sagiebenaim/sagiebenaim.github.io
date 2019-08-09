@@ -4,6 +4,8 @@ I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab und
 
 # Publications
 
+S. Benaim, M. Khaitov, T. Galanti, L. Wolf. Domain Intersection and Domain Difference. IEEE International Conference on Computer Vision (ICCV), 2019.
+
 M. Michelashvili, S. Benaim, L. Wolf. Semi-Supervised Monaural Singing Voice Separation With a Masking Network Trained on Synthetic Mixtures. International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019. [pdf](https://arxiv.org/pdf/1812.06087.pdf), [code](https://github.com/sagiebenaim/Singing), [samples](https://sagiebenaim.github.io/Singing/).
 
 O. Press, T. Galanti, S. Benaim, L. Wolf. Emerging Disentanglement in Auto-Encoder Based Unsupervised Image Content Transfer. International Conference on Learning Representations (ICLR), 2019. [pdf](https://openreview.net/pdf?id=BylE1205Fm), [code](https://github.com/oripress/ContentDisentanglement). 
@@ -24,6 +26,9 @@ S. Benaim, L. Wolf. One-Sided Unsupervised Domain Mapping. In Neural Information
 S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki and J. Worell. Complexity of Two-Variable Logic on Finite Trees. International Colloquium on Automata, Languages and Programming (ICALP), 2013. (MSc Thesis). [pdf](https://link.springer.com/chapter/10.1007/978-3-642-39212-2_10). 
 
 # Preprints
+
+
+R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer, 2019. [pdf](https://arxiv.org/abs/1906.06558), [code](https://github.com/rmokady/mbu-content-tansfer)
 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
