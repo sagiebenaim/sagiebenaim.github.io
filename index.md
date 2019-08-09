@@ -28,7 +28,7 @@ S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki 
 # Preprints
 
 
-R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer, 2019. [pdf](https://arxiv.org/abs/1906.06558), [code](https://github.com/rmokady/mbu-content-tansfer)
+R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer, 2019. [pdf](https://arxiv.org/abs/1906.06558), [code](https://github.com/rmokady/mbu-content-tansfer).
 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
