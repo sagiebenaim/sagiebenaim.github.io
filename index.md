@@ -34,7 +34,7 @@ S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable 
 
 # Talks
 
-Domain Intersection and Domain Difference (ICCVi, 2019), [slides]((https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/domain.pdf).
+Domain Intersection and Domain Difference (ICCVi, 2019), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/domain.pdf).
 
 Generative Adversarial Networks for Image to Image Translation (IMVC, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/gans_imvc.pdf).
 
