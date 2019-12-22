@@ -1,8 +1,10 @@
 # About Me
 
-I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervision of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
+I am a third year PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervision of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
 
 # Publications
+
+R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer. International Conference on Learning Representations (ICLR), 2020. [pdf](https://openreview.net/pdf?id=BJe-91BtvH), [code](https://github.com/rmokady/mbu-content-tansfer).
 
 S. Benaim, M. Khaitov, T. Galanti, L. Wolf. Domain Intersection and Domain Difference. IEEE International Conference on Computer Vision (ICCV), 2019. [pdf](https://arxiv.org/abs/1908.11628), [code](https://github.com/sagiebenaim/DomainIntersectionDifference).
 
@@ -26,9 +28,6 @@ S. Benaim, L. Wolf. One-Sided Unsupervised Domain Mapping. In Neural Information
 S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki and J. Worell. Complexity of Two-Variable Logic on Finite Trees. International Colloquium on Automata, Languages and Programming (ICALP), 2013. (MSc Thesis). [pdf](https://link.springer.com/chapter/10.1007/978-3-642-39212-2_10). 
 
 # Preprints
-
-
-R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer, 2019. [pdf](https://arxiv.org/abs/1906.06558), [code](https://github.com/rmokady/mbu-content-tansfer).
 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
