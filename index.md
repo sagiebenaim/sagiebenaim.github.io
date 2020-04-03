@@ -63,4 +63,4 @@ Awarded The Raymond and Beverly Sackler Excellence Scholarship for the Faculty o
 
 # Contact me
 
-Feel free to contact me at sbenaim at mail dot tau dot ac dot il
+Feel free to contact me at sagiebenaim@gmail.com
