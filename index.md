@@ -1,6 +1,6 @@
 # About Me
 
-I am a third year PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervision of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
+I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab under the supervision of Prof. [Lior Wolf](https://www.cs.tau.ac.il/~wolf/). I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and domain adaptation. I am also interested in security aspects of machine learning. A short CV can be found [here](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/cv.pdf). 
 
 # Publications
 
@@ -35,6 +35,8 @@ S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
 # Talks
+
+Visual Analogies: The role of disentanglement and learning from few example (Hebrew University). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/huji_2020.pdf)
 
 Domain Intersection and Domain Difference (Amazon, 2020), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/iccv_amazon.pdf).
 
