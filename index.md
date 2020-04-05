@@ -32,6 +32,8 @@ S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki 
 
 # Preprints
 
+S. Benaim, R. Mokady, A. Bermano, D. Cohen-Or, Lior Wolf. [project webpage](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy)
+
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
 # Talks
