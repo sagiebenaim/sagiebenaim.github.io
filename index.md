@@ -36,23 +36,23 @@ S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable 
 
 # Talks
 
-Visual Analogies: The role of disentanglement and learning from few example (Hebrew University). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/huji_2020.pdf)
+Visual Analogies: The role of disentanglement and learning from few example (Hebrew University), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/huji_2020.pdf)
 
 Domain Intersection and Domain Difference (Amazon, 2020), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/iccv_amazon.pdf).
 
 Domain Intersection and Domain Difference (ICCVi, 2019), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/domain.pdf).
 
-Generative Adversarial Networks for Image to Image Translation (IMVC, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/gans_imvc.pdf).
+Generative Adversarial Networks for Image to Image Translation (IMVC, 2019), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/gans_imvc.pdf).
 
-New Capabilities in Unsupervised Image to Image Translation (Bar Ilan University, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/new_capabilities.pdf).
+New Capabilities in Unsupervised Image to Image Translation (Bar Ilan University, 2019), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/new_capabilities.pdf).
 
-One-Shot Unsupervised Cross Domain Translation (Technion, 2019). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_shot.pdf).
+One-Shot Unsupervised Cross Domain Translation (Technion, 2019), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_shot.pdf).
 
-Introduction to Generative Adversarial Networks (Elbit, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf).
+Introduction to Generative Adversarial Networks (Elbit, 2018), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/elbit.pdf).
 
-Generative Adversarial Networks for Image to Image Translation (Nexar, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf).
+Generative Adversarial Networks for Image to Image Translation (Nexar, 2018), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/nexar.pdf).
 
-One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and Technion, 2018). [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_sided.pdf).
+One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and Technion, 2018), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/tree/master/presentations/one_sided.pdf).
 
 
 # Teaching
