@@ -4,7 +4,7 @@ I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab und
 
 # Publications
 
-S. Benaim, A. Ephrat, O. Lang, T. Dekel, I. Mosseri, W. Freeman, M. Rubinstein, M. Irani.  SpeedNet: Learning the Speediness in Videos.  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020. [project](https://speednet-cvpr20.github.io/). 
+S. Benaim, A. Ephrat, O. Lang, T. Dekel, I. Mosseri, W. Freeman, M. Rubinstein, M. Irani.  SpeedNet: Learning the Speediness in Videos.  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020. [project](https://speednet-cvpr20.github.io/), [paper](https://arxiv.org/pdf/2004.06130.pdf). 
 - Presented as a Oral Presentation.
 
 R. Mokady, S. Benaim, L. Wolf, A. Bermano. Mask Based Unsupervised Content Transfer. International Conference on Learning Representations (ICLR), 2020. [pdf](https://openreview.net/pdf?id=BJe-91BtvH), [code](https://github.com/rmokady/mbu-content-tansfer).
