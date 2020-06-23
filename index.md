@@ -21,7 +21,7 @@ S. Benaim, L. Wolf. One-Shot Unsupervised Cross Domain Translation. In Neural In
 
 T. Galanti, S. Benaim, L. Wolf. Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs. "Integration of Deep Learning Theories" Workshop, Neural Information Processing Systems (NeurIPS), 2018. [pdf](https://arxiv.org/pdf/1807.08501.pdf).
 
-S. Benaim\*, T. Galantiv*, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound). *Equal Contribution.
+S. Benaim\*, T. Galanti*, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound). *Equal Contribution.
 
 T. Galanti, L. Wolf, S. Benaim. The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings. In International Conference on Learning Representations (ICLR), 2018. [pdf](https://arxiv.org/pdf/1709.00074.pdf). *Equal Contribution. 
 
