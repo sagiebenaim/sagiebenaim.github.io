@@ -32,7 +32,7 @@ S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki 
 
 # Preprints
 
-S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. [project](https://sagiebenaim.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
+S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. [project](https://shirgur.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
 
 S. Benaim\*, R. Mokady\*, A. Bermano, D. Cohen-Or, Lior Wolf. Structural-analogy from a Single Image Pair. [project](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy). *Equal Contribution.
 
