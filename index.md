@@ -21,7 +21,7 @@ S. Benaim, L. Wolf. One-Shot Unsupervised Cross Domain Translation. In Neural In
 
 T. Galanti, S. Benaim, L. Wolf. Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs. "Integration of Deep Learning Theories" Workshop, Neural Information Processing Systems (NeurIPS), 2018. [pdf](https://arxiv.org/pdf/1807.08501.pdf).
 
-S. Benaim*, T. Galanti*, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound). *Equal Contribution.
+S. Benaim\*, T. Galantiv*, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound). *Equal Contribution.
 
 T. Galanti, L. Wolf, S. Benaim. The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings. In International Conference on Learning Representations (ICLR), 2018. [pdf](https://arxiv.org/pdf/1709.00074.pdf). *Equal Contribution. 
 
@@ -32,9 +32,9 @@ S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki 
 
 # Preprints
 
-S. Gur*, S. Benaim*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. [project](https://sagiebenaim.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
+S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. [project](https://sagiebenaim.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
 
-S. Benaim*, R. Mokady*, A. Bermano, D. Cohen-Or, Lior Wolf. Structural-analogy from a Single Image Pair. [project](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy). *Equal Contribution.
+S. Benaim\*, R. Mokady\*, A. Bermano, D. Cohen-Or, Lior Wolf. Structural-analogy from a Single Image Pair. [project](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy). *Equal Contribution.
 
 S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable Logic on Trees, 2013. (MSc Thesis).
 
