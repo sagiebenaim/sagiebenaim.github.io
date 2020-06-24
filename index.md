@@ -40,7 +40,9 @@ S. Benaim. Controlling the Depth, Size, and Number of Subtrees for Two-Variable 
 
 # Talks
 
-Visual Analogies: The role of disentanglement and learning from few example (Hebrew University), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/huji_2020.pdf)
+SpeedNet: Learning the Speediness in Videos (Viz.ai), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/speednet.pptx).
+
+Visual Analogies: The role of disentanglement and learning from few example (Hebrew University), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/huji_2020.pdf).
 
 Domain Intersection and Domain Difference (Amazon, 2020), [slides](https://github.com/sagiebenaim/sagiebenaim.github.io/blob/master/presentations/iccv_amazon.pdf).
 
