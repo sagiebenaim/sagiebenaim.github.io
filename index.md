@@ -62,6 +62,7 @@ One-Sided Unsupervised Domain Mapping (Hebew Univesity, Weizmann Institute and T
 # Teaching
 
 Spring 2019 - Convolutional Neural Networks.
+
 Spring 2020 - Convolutional Neural Networks.
 
 # Awards
