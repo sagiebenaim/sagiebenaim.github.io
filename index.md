@@ -4,6 +4,8 @@ I am a PhD candidate at Tel Aviv University. I work in the Deep Learning Lab und
 
 # Publications
 
+S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. In Neural Information Processing Systems (NeurIPS), 2018. [project](https://shirgur.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
+
 S. Benaim, A. Ephrat, O. Lang, T. Dekel, I. Mosseri, W. Freeman, M. Rubinstein, M. Irani.  SpeedNet: Learning the Speediness in Videos.  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020. [project](https://speednet-cvpr20.github.io/), [paper](https://arxiv.org/pdf/2004.06130.pdf). 
 - Presented as a Oral Presentation.
 
@@ -31,8 +33,6 @@ S. Benaim, L. Wolf. One-Sided Unsupervised Domain Mapping. In Neural Information
 S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki and J. Worell. Complexity of Two-Variable Logic on Finite Trees. International Colloquium on Automata, Languages and Programming (ICALP), 2013. (MSc Thesis). [pdf](https://link.springer.com/chapter/10.1007/978-3-642-39212-2_10). 
 
 # Preprints
-
-S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. [project](https://shirgur.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
 
 S. Benaim\*, R. Mokady\*, A. Bermano, D. Cohen-Or, Lior Wolf. Structural-analogy from a Single Image Pair. [project](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy). *Equal Contribution.
 
