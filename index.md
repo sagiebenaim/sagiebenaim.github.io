@@ -21,8 +21,6 @@ L. Wolf, S. Benaim, T. Galanti. Unsupervised Learning of the Set of Local Maxima
 
 S. Benaim, L. Wolf. One-Shot Unsupervised Cross Domain Translation. In Neural Information Processing Systems (NeurIPS), 2018. [pdf](https://arxiv.org/pdf/1806.06029.pdf), [code](https://github.com/sagiebenaim/OneShotTranslation).
 
-T. Galanti, S. Benaim, L. Wolf. Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs. "Integration of Deep Learning Theories" Workshop, Neural Information Processing Systems (NeurIPS), 2018. [pdf](https://arxiv.org/pdf/1807.08501.pdf).
-
 S. Benaim\*, T. Galanti\*, L. Wolf. Estimating the Success of Unsupervised Image to Image Translation. In European Conference of Computer Vision (ECCV), 2018. [pdf](https://arxiv.org/pdf/1712.07886.pdf), [code](https://github.com/sagiebenaim/gan_bound). *Equal Contribution.
 
 T. Galanti, L. Wolf, S. Benaim. The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings. In International Conference on Learning Representations (ICLR), 2018. [pdf](https://arxiv.org/pdf/1709.00074.pdf). 
@@ -31,6 +29,14 @@ S. Benaim, L. Wolf. One-Sided Unsupervised Domain Mapping. In Neural Information
 - Presented as a Spotlight Presentation.
 
 S. Benaim, M. Benedikt, W. Charatonik, E. Kieronski, R. Lenhardt, F. Mazowiecki and J. Worell. Complexity of Two-Variable Logic on Finite Trees. International Colloquium on Automata, Languages and Programming (ICALP), 2013. (MSc Thesis). [pdf](https://link.springer.com/chapter/10.1007/978-3-642-39212-2_10). 
+
+# Workshops
+
+S. Gur\*, S. Benaim\*, Lior Wolf. Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample. Deep Internal Learning Workship,  European Conference of Computer Vision (ECCV), 2020. [workshop](https://sites.google.com/view/deepinternallearning/short-orals?authuser=0), [project](https://shirgur.github.io/hp-vae-gan/), [paper](https://arxiv.org/pdf/2006.12226.pdf), [code](https://github.com/shirgur/hp-vae-gan). *Equal Contribution. 
+
+S. Benaim\*, R. Mokady\*, A. Bermano, D. Cohen-Or, Lior Wolf. Structural-analogy from a Single Image Pair. Deep Internal Learning Workship,  European Conference of Computer Vision (ECCV), 2020. [workshop](https://sites.google.com/view/deepinternallearning/short-orals?authuser=0), [project](https://sagiebenaim.github.io/structural-analogy/), [paper](https://sagiebenaim.github.io/structural-analogy/paper.pdf), [code](https://github.com/rmokady/structural-analogy). *Equal Contribution.
+
+T. Galanti, S. Benaim, L. Wolf. Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs. "Integration of Deep Learning Theories" Workshop, Neural Information Processing Systems (NeurIPS), 2018. [pdf](https://arxiv.org/pdf/1807.08501.pdf).
 
 # Preprints
 
