@@ -1,0 +1,736 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179752514-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179752514-1');
+  </script>
+
+  <title>Sagie Benaim</title>
+  
+  <meta name="author" content="Sagie Benaim">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Sagie Benaim</name>
+              </p>
+              <p>I am a PhD candidate at Tel Aviv University working on computer vision and machine learning. 
+              I work in the Deep Learning Lab under the supervision of Prof. 
+              <a href=https://www.cs.tau.ac.il/~wolf/>Lior Wolf</a>.
+              </p>
+              <p>
+               I am mainly interested in unsupervised, semi-supervised and self-supervised learning. Much of my work focuses on generative models, image to image translation and 
+              domain adaptation. I spent the summer of 2019 at <a href="https://ai.google/research">Google Research</a> working Self Supervised learning for Videos. 
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:sagiebenaim@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/SagieBenaim-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://github.com/sagiebenaim/">Github</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/sagie-benaim-aab47474/">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=-zSM2I8AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/BenaimSagie">Twitter</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/sagiebenaim.jpg"><img style="width:70%;max-width:70%" alt="profile photo" src="images/sagiebenaim_circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24"><tbody>
+          <tr>
+            <td>
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>     
+          <tr onmouseout="structural_stop()" onmouseover="structural_start()">
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='structural_image'>
+                  <img src='images/structural.gif' width="180"></div>
+                <img src='images/structural.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function structural_start() {
+                  document.getElementById('structural_image').style.opacity = "1";
+                }
+
+                function structural_stop() {
+                  document.getElementById('structural_image').style.opacity = "0";
+                }
+                structural_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+
+
+              <a href="https://sagiebenaim.github.io/structural-analogy/">
+                <papertitle>Structural-analogy from a Single Image Pair</papertitle>
+              </a>
+              <br> 
+              <strong>Sagie Benaim*</strong>,
+              <a href="mailto:ron.mokady@gmail.com">Ron Mokday*</a>,
+              <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>,
+              <a href="https://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>arXiv</em>, 2020. <em>Also in the Deep Internal Learning workshop</em>, ECCV 2020. 
+              <br>
+              <a href="https://sagiebenaim.github.io/structural-analogy/">project page</a> /
+              <a href="https://arxiv.org/abs/2004.02222">arXiv</a> /
+              <a href="https://github.com/rmokady/structural-analogy">code</a> /
+              <a href="https://drive.google.com/file/d/1K1sBltZi5wqY4fOdKJq-2nKRrybzl9lF/view">video</a>
+              <p></p>
+              <p>
+                We explore the capabilities of neural networks to understand image structure given only a single pair of images, A and B. We seek to generate images that are structurally aligned: that is, to generate an image that keeps the appearance and style of B, but has a structural arrangement that corresponds to A. Our method can be used for: guided image synthesis, style and texture transfer, text translation as well as video translation.
+              </p>
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="hpvae_stop()" onmouseover="hpvae_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hpvae_image'>
+                  <img src='images/hpvae_fake_combined.gif' width="180"></div>
+                <img src='images/hpvae_real_combined.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function hpvae_start() {
+                  document.getElementById('hpvae_image').style.opacity = "1";
+                }
+
+                function hpvae_stop() {
+                  document.getElementById('hpvae_image').style.opacity = "0";
+                }
+                hpvae_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <br>
+              <a href="https://shirgur.github.io/hp-vae-gan/">
+                <papertitle>Hierarchical Patch VAE-GAN: Generating Diverse Videos from a Single Sample</papertitle>
+              </a>
+              <br>
+              <a href="https://www.gurshir.com/">Shir Gur*</a>,
+              <strong>Sagie Benaim*</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>NeurIPS</em>, 2020. <em>Also in the Deep Internal Learning workshop</em>, ECCV 2020. 
+              <br>
+              <a href="https://shirgur.github.io/hp-vae-gan/">project page</a> /
+              <a href="https://arxiv.org/abs/2006.12226">arXiv</a> /
+              <a href="https://github.com/shirgur/hp-vae-gan">code</a> /
+              <a href="https://drive.google.com/file/d/1elwDahrrGmBwwkzKYqZT2GXZyuCWlVIG/view">video</a>
+              <p></p>
+              <p>
+                We consider the task of generating diverse and novel videos from a single video sample. We introduce a novel patch-based variational autoencoder (VAE) which allows for a much greater diversity in generation. Using this tool, a new hierarchical video generation scheme is constructed resulting in diverse and high quality videos. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="speednet_stop()" onmouseover="speednet_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='speednet_image'>
+                  <img src='images/speednet_after.gif' width="180"></div>
+                <img src='images/speednet_before.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function speednet_start() {
+                  document.getElementById('speednet_image').style.opacity = "1";
+                }
+
+                function speednet_stop() {
+                  document.getElementById('speednet_image').style.opacity = "0";
+                }
+                speednet_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+<br>
+              <a href="https://speednet-cvpr20.github.io/">
+                <papertitle>SpeedNet: Learning the Speediness in Videos</papertitle>
+              </a>
+              <br>
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.huji.ac.il/~arielephrat/">Ariel Ephrat</a>,
+              <a href="https://research.google/people/105975/">Oran Lang</a>, 
+              <a href="https://research.google/people/InbarMosseri/">Inbar Mosseri</a>,
+              <a href="https://billf.mit.edu/">William T. Freeman</a>,
+              <a href="http://people.csail.mit.edu/mrub/">Michael Rubinstein</a>,
+              <a href="http://www.weizmann.ac.il/math/irani/home">Michal Irani</a>,
+              <a href="http://people.csail.mit.edu/talidekel/">Tali Dekel</a> 
+              
+              <br>
+              <em>CVPR</em>, 2020. &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://speednet-cvpr20.github.io/">project page</a> /
+              <a href="https://arxiv.org/abs/2004.06130">arXiv</a> /
+              <a href="https://www.youtube.com/watch?v=dP2dS2ZQ9LQ&feature=emb_logo">video</a>
+              <p></p>
+              <p>
+                We train a network called SpeedNet to to automatically predict the "speediness" of moving objects in videos - whether they move faster, at, or slower than their "natural" speed. SpeedNet is trained in a self-supervised manner and can be used to generate time-varying, adaptive video speedups as well as to boost the performance of self-supervised action recognition and video retrieval.
+              </p>
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="masked_stop()" onmouseover="masked_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='masked_image'>
+                  <img src='images/masked.jpg' width="180"></div>
+                <img src='images/masked.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function masked_start() {
+                  document.getElementById('masked_image').style.opacity = "1";
+                }
+
+                function masked_stop() {
+                  document.getElementById('masked_image').style.opacity = "0";
+                }
+                masked_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+
+              <a href="https://openreview.net/pdf?id=BJe-91BtvH">
+                <papertitle>Masked Based Unsupervised Content Transfer</papertitle>
+              </a>
+              <br>
+              <a href="mailto:ron.mokady@gmail.com">Ron Mokday</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              
+              <br>
+              <em>ICLR</em>, 2020. &nbsp
+              <br>
+              <a href="https://openreview.net/pdf?id=BJe-91BtvH">arXiv</a> /
+              <a href="https://github.com/rmokady/mbu-content-tansfer">code</a> /
+              <a href="https://iclr.cc/virtual_2020/poster_BJe-91BtvH.html">video</a>
+              <p></p>
+              <p>
+                We consider the problem of translating, in an unsupervised manner, between two
+domains where one contains some additional information compared to the other. To do so, we disentangle the common and separate parts of these domains
+and, through the generation of a mask, focuses the attention of the underlying
+network to the desired augmentation, without wastefully reconstructing the
+entire target. 
+              </p>
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="intersection_stop()" onmouseover="intersection_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='intersection_image'>
+                  <img src='images/intersection_after.jpg' width="180"></div>
+                <img src='images/intersection_before.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function intersection_start() {
+                  document.getElementById('intersection_image').style.opacity = "1";
+                }
+
+                function intersection_stop() {
+                  document.getElementById('intersection_image').style.opacity = "0";
+                }
+                intersection_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              
+              <a href="https://arxiv.org/abs/1908.11628">
+                <papertitle>Domain Intersection and Domain Difference</papertitle>
+              </a>
+              <br>
+              <strong>Sagie Benaim</strong>,
+              <a href="mailto:michaell.kh@gmail.com">Michael Khaitov</a>, 
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>, 
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
+              <br>
+              <em>ICCV</em>, 2019.
+              <br>
+              <a href="https://arxiv.org/abs/1908.11628">arXiv</a> /
+              <a href="https://github.com/sagiebenaim/DomainIntersectionDifference">code</a>
+              <p></p>
+              <p>
+                We present a method for recovering the shared content between two visual domains as well as the content that is unique to each domain. This allows us to remove content specific contant of the first domain and add content specific to the second domain. We can also generate form the intersection of the two domains and their union, despite having no such samples during training. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          
+         <tr onmouseout="separation_stop()" onmouseover="separation_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='separation_image'>
+                  <img src='images/seperation_after.png' width="180"></div>
+                <img src='images/seperation_before.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function separation_start() {
+                  document.getElementById('separation_image').style.opacity = "1";
+                }
+
+                function separation_stop() {
+                  document.getElementById('separation_image').style.opacity = "0";
+                }
+                separation_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+                       
+              <br><br>
+              <a href="https://arxiv.org/abs/1812.06087">
+                <papertitle>Semi-Supervised Monaural Singing Voice Separation With a Masking Network Trained on Synthetic Mixtures</papertitle>
+              </a>
+              <br>
+              <a href="mailto:mosheman5@gmail.com">Michael Michelashvili</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
+              <br>
+              <em>ICASSP</em>, 2019.
+              <br>
+              <a href="https://arxiv.org/abs/1812.06087">arXiv</a> /
+              <a href="https://github.com/sagiebenaim/Singing">code</a> /              
+              <a href="https://sagiebenaim.github.io/Singing">samples</a>
+
+              <p></p>
+              <p>
+                We study the problem of semi-supervised singing voice separation, in which the training data contains a set of samples of mixed music (singing and instrumental) and an unmatched set of instrumental music. Our results indicate that we are on a par with or better than fully supervised methods, which are also provided with training samples of unmixed singing voices, and are better than other recent semi-supervised methods.
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="content_stop()" onmouseover="content_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='content_image'>
+                  <img src='images/content.png' width="180"></div>
+                <img src='images/content.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function content_start() {
+                  document.getElementById('content_image').style.opacity = "1";
+                }
+
+                function content_stop() {
+                  document.getElementById('content_image').style.opacity = "0";
+                }
+                content_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+                 <br>
+              <a href="https://openreview.net/pdf?id=BylE1205Fm">
+                <papertitle>Emerging Disentanglement in Auto-Encoder Based Unsupervised Image Content Transfer</papertitle>
+              </a>
+              <br>
+              <a href="https://oripress.com/">Ori Press</a>,
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>,             
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
+              <br>
+              <em>ICLR</em>, 2019.
+              <br>
+              <a href="https://openreview.net/pdf?id=BylE1205Fm">arXiv</a> /
+              <a href="https://github.com/oripress/ContentDisentanglement">code</a>
+              <p></p>
+              <p>
+                We study the problem of learning to map, in an unsupervised way, between domains A and B, such that the samples b in B, contain all the information that
+exists in samples a in A, and some additional information. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="localmaxima_stop()" onmouseover="localmaxima_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='localmaxima_image'>
+                  <img src='images/localmaxima.png' width="180"></div>
+                <img src='images/localmaxima.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function localmaxima_start() {
+                  document.getElementById('localmaxima_image').style.opacity = "1";
+                }
+
+                function localmaxima_stop() {
+                  document.getElementById('localmaxima_image').style.opacity = "0";
+                }
+                localmaxima_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+            
+              <a href="https://openreview.net/pdf?id=H1lqZhRcFm">
+                <papertitle>Unsupervised Learning of the Set of Local Maxima</papertitle>
+              </a>
+              <br>         
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>,               
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>
+              <br>
+              <em>ICLR</em>, 2019.
+              <br>
+              <a href="https://openreview.net/pdf?id=H1lqZhRcFm">arXiv</a> 
+              <p></p>
+              <p>
+              We study a new form of unsupervised learning, whose input is a set
+              of unlabeled points that are assumed to be local maxima of an unknown value
+              function v in an unknown subset of the vector space. Two functions are learned:
+             (i) a set indicator c, which is a binary classifier, and (ii) a comparator function
+             h that given two nearby samples, predicts which sample has the higher value of
+             the unknown function v. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="ost_stop()" onmouseover="ost_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ost_image'>
+                  <img src='images/ost.png' width="180"></div>
+                <img src='images/ost.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function ost_start() {
+                  document.getElementById('ost_image').style.opacity = "1";
+                }
+
+                function ost_stop() {
+                  document.getElementById('ost_image').style.opacity = "0";
+                }
+                ost_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+                
+              <a href="https://arxiv.org/abs/1806.06029">
+                <papertitle>One-Shot Unsupervised Cross Domain Translation</papertitle>
+              </a>
+              <br>         
+              <strong>Sagie Benaim</strong>,              
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>               
+              <br>
+              <em>NeurIPS</em>, 2018.
+              <br>
+              <a href="https://arxiv.org/abs/1806.06029">arXiv</a> /
+              <a href="https://github.com/sagiebenaim/OneShotTranslation">code</a> 
+              <p></p>
+              <p>
+              Given a single image x from domain A and a set of images from domain B, we consider the task of 
+               generating the analogous of x in B.
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          
+          <tr onmouseout="estimating_stop()" onmouseover="estimating_start()">
+            
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br>
+              <div class="one">
+                <div class="two" id='estimating_image'>
+                  <img src='images/estimating.png' width="180"></div>
+                <img src='images/estimating.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function estimating_start() {
+                  document.getElementById('estimating_image').style.opacity = "1";
+                }
+
+                function estimating_stop() {
+                  document.getElementById('estimating_image').style.opacity = "0";
+                }
+                estimating_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+                  
+              <a href="https://arxiv.org/abs/1712.07886.pdf">
+                <papertitle>Estimating the Success of Unsupervised Image to Image Translation</papertitle>
+              </a>
+              <br>         
+              <strong>Sagie Benaim*</strong>,              
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti*</a>, 
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>               
+              <br>
+              <em>ECCV</em>, 2018.
+              <br>
+              <a href="https://arxiv.org/abs/1712.07886.pdf">arXiv</a> /
+              <a href="https://github.com/sagiebenaim/gan_bound">code</a> 
+              <p></p>
+              <p>
+While in supervised learning, the validation error is an unbiased estimator of the
+generalization (test) error and complexity-based generalization bounds are abundant, no such bounds exist for learning a mapping in an unsupervised way. 
+We propose a novel bound for predicting the success of unsupervised cross domain
+mapping methods.
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="roleof_stop()" onmouseover="roleof_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='roleof_image'>
+                  <img src='images/roleof_after.png' width="180"></div>
+                <img src='images/roleof_before.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function roleof_start() {
+                  document.getElementById('roleof_image').style.opacity = "1";
+                }
+
+                function roleof_stop() {
+                  document.getElementById('roleof_image').style.opacity = "0";
+                }
+                roleof_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              
+              <a href="https://openreview.net/pdf?id=H1VjBebR-">
+                <papertitle>The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings</papertitle>
+              </a>
+              <br>         
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>,               
+              <strong>Sagie Benaim</strong>,              
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>               
+              <br>
+              <em>ICLR</em>, 2018.
+              <br>
+              <a href="https://openreview.net/pdf?id=H1VjBebR-">arXiv</a>
+              <p></p>
+              <p>
+              We discuss the feasability of the unsupervised cross domain generation problem. In the typical setting this problem is ill posed: it seems possible to build infinitely many alternative mappings from every target mapping. We identify the abstract notion of aligning two domains and show that only a minimal architecture and a standard GAN loss is required to learn such mappings, without the need for a cycle loss. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="distancegan_stop()" onmouseover="distancegan_start()">  
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br><br>
+              <div class="one">
+                <div class="two" id='distancegan_image'>
+                  <img src='images/distancegan_after.jpg' width="180"></div>
+                <img src='images/distancegan_before.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function distancegan_start() {
+                  document.getElementById('distancegan_image').style.opacity = "1";
+                }
+
+                function distancegan_stop() {
+                  document.getElementById('distancegan_image').style.opacity = "0";
+                }
+                distancegan_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://arxiv.org/abs/1706.00826">
+                <papertitle>One-Sided Unsupervised Domain Mapping</papertitle>
+              </a>                  
+              <br> 
+              <strong>Sagie Benaim</strong>,              
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>               
+              <br>
+              <em>NIPS</em>, 2017. &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
+              <br>
+              <a href="https://arxiv.org/abs/1706.00826">arXiv</a> /
+              <a href="https://github.com/sagiebenaim/DistanceGAN">code</a>
+              <p></p>
+              <p>
+              We consider the problem of mapping, in an unsupervised manner, between two visual domains in a one sided fashion. 
+              This is done by learning an equivariant mapping that maintains the distance between a pair of samples. 
+                <br>
+              </p>
+              
+            </td>
+          </tr> 
+          
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/fo2.png" alt="clean-usnob" width="180">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
+                <papertitle>Complexity of Two-variable Logic on Finite Trees</papertitle>
+              </a>
+              <br>
+              <strong>Sagie Benaim</strong>,
+              <a href="http://www.cs.ox.ac.uk/michael.benedikt/home.html">Michael Benedikt</a>, 
+              <a href="https://www.ii.uni.wroc.pl/~wch/">Witold Charatonik</a>, 
+              <a href="http://www.ii.uni.wroc.pl/~kiero/">Emanuel Kieroński</a>,               
+              <a href="https://research.google/people/RastislavLenhardt/">Rastislav Lenhardt</a>, 
+              <a href="https://fmazowiecki.github.io/">Filip Mazowiecki</a>,              
+              <a href="http://www.cs.ox.ac.uk/people/james.worrell/home.html">James Worrell</a>          
+              <br>
+              <em>ICALP</em>, 2013 and ACM Transaction of Computational Logic, Volume 17, 2016 (MSc Thesis).
+              <p>               This work contains a comprehensive analysis of the complexity the two-variable fragment of first-order logic FO2 on trees. </p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Talks</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="100%" valign="center">
+              <a href="presentations/speednet.pptx"><em>SpeedNet: Learning the Speediness in Videos</em></a>, Viz.ai, 2020.
+              <br>
+              <br>
+              <a href="presentations/huji_2020.pdf"><em>Visual Analogies: The role of disentanglement and learning from few example</em></a>, Hebrew University, 2020.
+              <br>
+              <br>
+              <a href="presentations/iccv_amazon.pdf"><em>Domain Intersection and Domain Difference</em></a>, Amazon, 2020.
+              <br>
+              <br>
+              <a href="presentations/domain.pdf"><em>Domain Intersection and Domain Difference</em></a>, ICCVi, 2019.
+              <br>
+              <br>
+              <a href="presentations/gans_imvc.pdf"><em>Generative Adversarial Networks for Image to Image Translation</em></a>, IMVC, 2019.  
+              <a href="https://www.youtube.com/watch?v=ZrJKEjRYwTo"><em>Video</em></a>. 
+              <br>
+              <br>
+              <a href="presentations/new_capabilities.pdf"><em>New Capabilities in Unsupervised Image to Image Translation</em></a>, Bar Ilan University, 2019.
+              <br>
+              <br>
+              <a href="presentations/one_shot.pdf"><em>One-Shot Unsupervised Cross Domain Translation</em></a>, Technion, 2019.              
+              <br>
+              <br>
+              <a href="presentations/elbit.pdf"><em>Introduction to Generative Adversarial Networks</em></a>, Elbit, 2018.
+              <br>
+              <br>
+              <a href="presentations/nexar.pdf"><em>Generative Adversarial Networks for Image to Image Translation</em></a>, Nexar, 2018.
+              <br>
+              <br>
+              <a href="presentations/one_sided.pdf"><em>One-Sided Unsupervised Domain Mapping</em></a>, Hebew Univesity, Weizmann Institute and Technion, 2018.              
+            </td>
+          </tr>
+        
+        </tbody></table>
+        
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24"><tbody>
+          <tr>
+            <td>
+              <heading>Teaching</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="100%" valign="center">
+		Convolutional Neural Networks. Tel Aviv University. <a>Spring 2019</a>, <a>Spring 2020</a>.
+           
+            </td>
+          </tr>
+        
+        </tbody></table>
+        
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24"><tbody>
+          <tr>
+            <td>
+              <heading>Awards</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="100%" valign="center">
+		Awarded The Raymond and Beverly Sackler Excellence Scholarship for the Faculty of Exact Sciences. January 2018.
+           
+            </td>
+          </tr>
+        
+        </tbody></table>
+        
+        
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24"><tbody>
+          <tr>
+            <td>
+              <heading>Voluntary Activities</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="100%" valign="center">
+		Reviewer for NeurIPS, ICLR, CVPR, ICML. 
+            </td>
+          </tr>
+          
+          
+        
+        </tbody></table>
+        
+
+        
+	          <br><br>
+              <p style="font-size:small;width="100%" valign="center"">
+				This page design is based on a template by <a href="https://jonbarron.info/">Jon Barron</a>.
+              </p>
+                    
+      </td>
+    </tr>
+  </table>
+  
+
+  
+</body>
+
+</html>
