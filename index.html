@@ -65,7 +65,52 @@
           </tr>
         </tbody></table>
         
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>     
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
+        	<br> <br> <br> 
+           <tr onmouseout="padain_stop()" onmouseover="padain_start()">
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='padain_image'>
+                  <img src='images/padain.png' width="180"></div>
+                <img src='images/padain.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function padain_start() {
+                  document.getElementById('padain_image').style.opacity = "1";
+                }
+
+                function padain_stop() {
+                  document.getElementById('padain_image').style.opacity = "0";
+                }
+                padain_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+
+              <a href="https://arxiv.org/abs/2010.05785">
+                <papertitle>Permuted AdaIN: Reducing the Bias Towards Global Statistics in Image Classification</papertitle>
+              </a>
+              <br> 
+              <a href="mailto:orennuriel@mail.tau.ac.il">Oren Nuriel</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>arXiv</em>, 2020. 
+              <a href="https://arxiv.org/abs/2004.02222">arXiv</a> /
+              <a href="https://github.com/onuriel/PermutedAdaIN">code</a> 
+              <p></p>
+              <p>
+               A simple architectural change which forces the network to reduce its bias to global image statistics. 
+               Using AdaIN, we swap global statistics of samples within a batch, stocastically, with some probability p. 
+               This results in significant improvements in multiple settings including domain adaptation, domain generalization, robustness
+               and image clasification. 
+              </p>
+            </td>
+          </tr> 
+        
+          
           <tr onmouseout="structural_stop()" onmouseover="structural_start()">
            
             <td style="padding:2.5%;width:25%;vertical-align:middle">
@@ -98,7 +143,7 @@
               <a href="https://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>,
               <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
               <br>
-              <em>Computer Graphics Forum</em>, 2021. 
+              <em>Computer Graphics Forum</em>, 2020. 
               <br>
               <em>Also in the Deep Internal Learning workshop</em>, ECCV 2020. 
               <br>
