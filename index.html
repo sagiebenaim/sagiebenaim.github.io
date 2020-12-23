@@ -66,10 +66,13 @@
         </tbody></table>
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
-        	<br> <br> <br> 
-           <tr onmouseout="padain_stop()" onmouseover="padain_start()">
+         
+        	
+        <tr onmouseout="padain_stop()" onmouseover="padain_start()">
+        
            
             <td style="padding:2.5%;width:25%;vertical-align:middle">
+              
               <div class="one">
                 <div class="two" id='padain_image'>
                   <img src='images/padain.png' width="180"></div>
@@ -92,7 +95,6 @@
               <a href="https://arxiv.org/abs/2010.05785">
                 <papertitle>Permuted AdaIN: Reducing the Bias Towards Global Statistics in Image Classification</papertitle>
               </a>
-              <br> 
               <a href="mailto:orennuriel@mail.tau.ac.il">Oren Nuriel</a>,
               <strong>Sagie Benaim</strong>,
               <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
@@ -109,6 +111,49 @@
               </p>
             </td>
           </tr> 
+        	
+           <tr onmouseout="metrics_stop()" onmouseover="metrics_start()">
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br>
+              <div class="one">
+                <div class="two" id='metrics_image'>
+                  <img src='images/metrics.png' width="180"></div>
+                <img src='images/metrics.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function metrics_start() {
+                  document.getElementById('metrics_image').style.opacity = "1";
+                }
+
+                function metrics_stop() {
+                  document.getElementById('metrics_image').style.opacity = "0";
+                }
+                metrics_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+
+              <a href="https://arxiv.org/abs/2004.12361">
+                <papertitle>Evaluation Metrics for Conditional Image Generation</papertitle>
+              </a>
+              <a href="mailto:yanivbenny@mail.tau.ac.il">Yaniv Beniv</a>,
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>International Journal of Computer Vision (IJCV)</em>, 2020. 
+              <a href="https://arxiv.org/abs/2004.12361">arXiv</a> 
+              <p></p>
+              <p>
+Two new metrics for evaluating generative models in the class-conditional image generation setting. These metrics are obtained by generalizing the two most popular unconditional metrics: the Inception Score (IS) and the Fréchet Inception Distance (FID).
+              </p>
+            </td>
+          </tr> 
+           
+           
+
         
           
           <tr onmouseout="structural_stop()" onmouseover="structural_start()">
