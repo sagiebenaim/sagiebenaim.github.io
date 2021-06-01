@@ -108,6 +108,58 @@
               </p>
             </td>
           </tr> 
+          
+          
+          
+          
+         <tr onmouseout="icip_stop()" onmouseover="icip_start()">
+        
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              
+              <div class="one">
+                <div class="two" id='icip_image'>
+                  <img src='images/icip.png' width="180"></div>
+                <img src='images/icip.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function icip_start() {
+                  document.getElementById('icip_image').style.opacity = "1";
+                }
+
+                function icip_stop() {
+                  document.getElementById('icip_image').style.opacity = "0";
+                }
+                icip_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+
+              <a href="https://arxiv.org/abs/2105.14609">
+                <papertitle>Identity and Attribute Preserving Thumbnail Upscaling</papertitle>
+              </a> <br>
+              <a href="mailto:noamgat@gmail.com">Noam Gat</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>ICIP</em>, 2021. 
+              <a href="https://arxiv.org/abs/2105.14609">arXiv</a> 
+              <p></p>
+              <p>
+               StyleGAN can be used to upscale a low resolution thumbnail image of a person, to a higher resolution image.
+               However, it often changes the person’s identity, or produces biased solutions, such as predominantly Caucasian faces. 
+               We present a method to upscale an image that preserves the person's identity and other attributes.
+              </p>
+            </td>
+          </tr> 
+          
+          
+          
+          
+          
+          
+          
         	
            <tr onmouseout="metrics_stop()" onmouseover="metrics_start()">
            
@@ -725,35 +777,45 @@ mapping methods.
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
             <td width="100%" valign="center">
-              <a href="presentations/talk-berkeley.pdf"><em>Manipulating Structure in Images and Videos.</em></a>, Nvidia Research, Berkeley, 2021.
+            
+              Structure-Aware Manipulation of Images and Videos, 2021.
+              <br>
+              <a href="presentations/talk-facebook.pdf"><em>Facebook AI Research (London)</em></a>,
+              <a href="presentations/talk-stanford.pdf"><em>Stanford SVL Meeting</em></a>,
+              <a href="presentations/talk-google.pdf"><em>Google Research (Tel Aviv)</em></a>, 
+              <br>
+              <a href="presentations/talk-nvidia.pdf"><em>Nvidia Research (San Francisco) </em></a>, 
+              <a href="presentations/talk-cds-technion.pdf"><em>Technion CDS Seminar</em></a>,
+              <a href="presentations/talk-tau-seminar.pdf"><em>Tel Aviv Visual Computing Seminar</em></a>.
               <br>
               <br>
-              <a href="presentations/talk-viscam.pdf"><em>On disentangled and few shot visual generation and understanding</em></a>, Google Research, 2020.
+              <a href="presentations/talk-berkeley.pdf"><em>Manipulating Structure in Images and Videos.</em></a>, Nvidia Research (Tel Aviv), Berkeley, 2021.
               <br>
               <br>
-              <a href="presentations/speednet_and_hpvaegan.pptx"><em>Learning the Speediness in Videos and Generating Novel Videos From a Single Sample</em></a>, Hebrew University and Technion, 2020.
+              <a href="presentations/talk-viscam.pdf"><em>On disentangled and few shot visual generation and understanding</em></a>, Google Viscam Seminar, 2020.
+              <br>
+              <br>
+              <a href="presentations/speednet_and_hpvaegan.pptx"><em>Learning the Speediness in Videos and Generating Novel Videos From a Single Sample</em></a>, Hebrew University Vision Seminar,  Technion ML Seminar, 2020.
               <br>
               <br>
               <a href="presentations/speednet.pptx"><em>SpeedNet: Learning the Speediness in Videos</em></a>, Viz.ai, 2020.
               <br>
               <br>
-              <a href="presentations/huji_2020.pdf"><em>Visual Analogies: The role of disentanglement and learning from few example</em></a>, Hebrew University, 2020.
+              <a href="presentations/huji_2020.pdf"><em>Visual Analogies: The role of disentanglement and learning from few example</em></a>, Hebrew University Vision Seminar, 2020.
               <br>
               <br>
-              <a href="presentations/iccv_amazon.pdf"><em>Domain Intersection and Domain Difference</em></a>, Amazon, 2020.
-              <br>
-              <br>
-              <a href="presentations/domain.pdf"><em>Domain Intersection and Domain Difference</em></a>, ICCVi, 2019.
+              Domain Intersection and Domain Difference, 2020. <a href="presentations/iccv_amazon.pdf"><em>Amazon Research (Tel Aviv)</em></a>, 
+              <a href="presentations/domain.pdf"><em>, ICCVi, 2019</em></a>.
               <br>
               <br>
               <a href="presentations/gans_imvc.pdf"><em>Generative Adversarial Networks for Image to Image Translation</em></a>, IMVC, 2019.  
               <a href="https://www.youtube.com/watch?v=ZrJKEjRYwTo"><em>Video</em></a>. 
               <br>
               <br>
-              <a href="presentations/new_capabilities.pdf"><em>New Capabilities in Unsupervised Image to Image Translation</em></a>, Bar Ilan University, 2019.
+              <a href="presentations/new_capabilities.pdf"><em>New Capabilities in Unsupervised Image to Image Translation</em></a>, Bar Ilan ML Seminar, 2019.
               <br>
               <br>
-              <a href="presentations/one_shot.pdf"><em>One-Shot Unsupervised Cross Domain Translation</em></a>, Technion, 2019.              
+              <a href="presentations/one_shot.pdf"><em>One-Shot Unsupervised Cross Domain Translation</em></a>, Technion CDS Seminar, 2019.              
               <br>
               <br>
               <a href="presentations/elbit.pdf"><em>Introduction to Generative Adversarial Networks</em></a>, Elbit, 2018.
@@ -762,7 +824,7 @@ mapping methods.
               <a href="presentations/nexar.pdf"><em>Generative Adversarial Networks for Image to Image Translation</em></a>, Nexar, 2018.
               <br>
               <br>
-              <a href="presentations/one_sided.pdf"><em>One-Sided Unsupervised Domain Mapping</em></a>, Hebrew University, Weizmann Institute and Technion, 2018.              
+              <a href="presentations/one_sided.pdf"><em>One-Sided Unsupervised Domain Mapping</em></a>, Hebrew University Vision Seminar, Weizmann Institute Vision Seminar, Technion Pixel Club, 2018.              
             </td>
           </tr>
         
@@ -779,7 +841,7 @@ mapping methods.
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
             <td width="100%" valign="center">
-		Convolutional Neural Networks. Tel Aviv University. <a>Spring 2019</a>, <a>Spring 2020</a>.
+		Convolutional Neural Networks. Tel Aviv University. <a>Spring 2019</a>, <a>Spring 2020</a>, <a>Spring 2021</a>.
            
             </td>
           </tr>
@@ -814,7 +876,7 @@ mapping methods.
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
             <td width="100%" valign="center">
-		Reviewer for NeurIPS, ICLR, CVPR, ICML. 
+		Reviewer for NeurIPS, ICLR, CVPR, ICML, ECCV, ICCV. 
             </td>
           </tr>
           
