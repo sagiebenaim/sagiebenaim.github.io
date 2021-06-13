@@ -69,6 +69,7 @@
         
            
             <td style="padding:2.5%;width:25%;vertical-align:middle">
+
               
               <div class="one">
                 <div class="two" id='padain_image'>
@@ -116,6 +117,7 @@
         
            
             <td style="padding:2.5%;width:25%;vertical-align:middle">
+                        <br> <br>
               
               <div class="one">
                 <div class="two" id='icip_image'>
@@ -143,17 +145,60 @@
               <strong>Sagie Benaim</strong>,
               <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
               <br>
-              <em>ICIP</em>, 2021. 
-              <a href="https://arxiv.org/abs/2105.14609">arXiv</a> 
+              <em>ICIP</em>, 2021.  
+              <a href="https://arxiv.org/abs/2105.14609">arXiv</a> /
+              <a href="https://github.com/noamgat/IdentityUpscaling">code</a> 
               <p></p>
               <p>
                StyleGAN can be used to upscale a low resolution thumbnail image of a person, to a higher resolution image.
-               However, it often changes the person’s identity, or produces biased solutions, such as predominantly Caucasian faces. 
+               However, it often changes the person’s identity, or produces biased solutions, such as Caucasian faces. 
                We present a method to upscale an image that preserves the person's identity and other attributes.
               </p>
             </td>
           </tr> 
           
+          <tr onmouseout="jmlr_stop()" onmouseover="jmlr_start()">
+        
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+                        <br>
+              
+              <div class="one">
+                <div class="two" id='jmlr_image'>
+                  <img src='images/jmlr.png' width="180"></div>
+                <img src='images/jmlr.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function jmlr_start() {
+                  document.getElementById('jmlr_image').style.opacity = "1";
+                }
+
+                function jmlr_stop() {
+                  document.getElementById('jmlr_image').style.opacity = "0";
+                }
+                jmlr_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+
+              <a href="https://jmlr.org/papers/volume22/18-489/18-489.pdf">
+                <papertitle>Risk Bounds for Unsupervised Cross-Domain Mapping with IPMs</papertitle>
+              </a> <br>
+              <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <br>
+              <em>JMLR</em>, 2021.  
+              <a href="https://jmlr.org/papers/volume22/18-489/18-489.pdf">arXiv</a> 
+              <p></p>
+              <p>
+              
+              We develop theoretical foundations for the success of unsupervised cross-domain mapping algorithms, in mapping between
+two domains that share common characteristics, with a particular emphasis on the clear ambiguity in such mappings.
+              </p>
+            </td>
+          </tr> 
           
           
           
