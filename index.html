@@ -62,8 +62,55 @@
           </tr>
         </tbody></table>
         
+        
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
+        
+        
+                        <tr onmouseout="target_stop()" onmouseover="target_start()">
+        
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+
+              
+              <div class="one">
+                <div class="two" id='target_image'>
+                  <img src='images/target.jpg' width="180"></div>
+                <img src='images/target.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function target_start() {
+                  document.getElementById('target_image').style.opacity = "1";
+                }
+
+                function target_stop() {
+                  document.getElementById('target_image').style.opacity = "0";
+                }
+                target_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+
+              <a href="https://arxiv.org/abs/2110.12427">
+                <papertitle>Image-Based CLIP-Guided Essence Transfer</papertitle>
+              </a> <br>
+              <a href="mailto:hilach70@gmail.com">Hila Chefer</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="mailto:ronipaiss@mail.tau.ac.il">Roni Paiss</a>, 
+              <a href="http://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
+              <br>
+              <em>arXiv</em>, 2021. 
+              <a href="https://arxiv.org/abs/2110.12427">arXiv</a> /
+              <a href="https://github.com/hila-chefer/TargetCLIP">code</a> /
+              <a href="https://www.casualganpapers.com/clip_image_to_image_style_transfer_essence_transfer/TargetCLIP-explained.html">5 minute summary</a>
+              <p></p>
+              <p>
+               A new style (essense) transfer method that incoporates higher level abstractions then textures and colors. TargetCLIP introduces a blending operator that combines the powerful StyleGAN2 generator with a semantic network CLIP to achieve a more natural blending than with each model separately.
+              </p>
+            </td>
+          </tr> 
         
         
                         <tr onmouseout="jokr_stop()" onmouseover="jokr_start()">
