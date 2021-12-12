@@ -69,8 +69,101 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
         
+        <tr onmouseout="text2mesh_stop()" onmouseover="text2mesh_start()">
         
-                        <tr onmouseout="target_stop()" onmouseover="target_start()">
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+		
+		
+              <div class="one">
+                <div class="two" id='text2mesh_image'>
+                  <img src='images/text2mesh.gif' width="180"></div>
+                <img src='images/text2mesh.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function text2mesh_start() {
+                  document.getElementById('text2mesh_image').style.opacity = "1";
+                }
+
+                function text2mesh_stop() {
+                  document.getElementById('text2mesh_image').style.opacity = "0";
+                }
+                text2mesh_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+	      
+
+              <a href="https://arxiv.org/abs/2112.03221">
+                <papertitle>Text2Mesh: Text-Driven Neural Stylization for Meshes</papertitle>
+              </a> <br>
+              <a href="mailto:ojmichel@uchicago.edu">Oscar Michel*</a>,
+              <a href="mailto:Roibaron4@gmail.com">Roi Bar-On*</a>,
+              <a href="mailto:guanzhi97@gmail.com">Richard Liu*</a>,  
+              <strong>Sagie Benaim</strong>,
+              <a href="https://people.cs.uchicago.edu/~ranahanocka/">Rana Hanocka</a>
+              <br>
+              <em>arXiv</em>, 2021. 
+              <a href="https://threedle.github.io/text2mesh/">project page</a> /
+              <a href="https://arxiv.org/abs/2112.03221">arXiv</a> /
+              <a href="https://github.com/threedle/text2mesh">code</a>
+              <p></p>
+              <p>
+               Text2Mesh produces color and geometric details over a variety of source meshes, driven by a target text prompt. Our stylization results coherently blend unique and ostensibly unrelated combinations of text, 
+               capturing both global semantics and part-aware  attributes.
+              </p>
+            </td>
+          </tr> 
+          
+        
+        <tr onmouseout="locally_shifted_stop()" onmouseover="locally_shifted_start()">
+        
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+		
+              <br>
+              <div class="one">
+                <div class="two" id='locally_shifted_image'>
+                  <img src='images/locally_shifted.png' width="180"></div>
+                <img src='images/locally_shifted.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function locally_shifted_start() {
+                  document.getElementById('locally_shifted_image').style.opacity = "1";
+                }
+
+                function locally_shifted_stop() {
+                  document.getElementById('locally_shifted_image').style.opacity = "0";
+                }
+                locally_shifted_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+		
+	      
+
+              <a href="https://arxiv.org/abs/2112.05080">
+                <papertitle>Locally Shifted Attention With Early Global Integration</papertitle>
+              </a>  <br>
+              <a href="mailto:shelly.sheynin3@gmail.com">Shelly Sheynin</a>,
+              <strong>Sagie Benaim</strong>,
+              <a href="https://ai.facebook.com/people/adam-polyak">Adam Polyak</a>, 
+              <a href="http://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
+              <br>
+              <em>arXiv</em>, 2021. 
+              <a href="https://arxiv.org/abs/2112.05080">arXiv</a> /
+              <a href="https://github.com/shellysheynin/locally-sag-transformer">code</a>
+              <p></p>
+              <p>
+               A new image transformer architecture which first applies a local attention over patches and their local shifts, resulting in virtually located local patches, which are not bound to a single, specific location. 
+               Subsequently, these virtually located patches are used in a global attention layer. 
+              </p>
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="target_stop()" onmouseover="target_start()">
         
            
             <td style="padding:2.5%;width:25%;vertical-align:middle">
@@ -113,6 +206,7 @@
               </p>
             </td>
           </tr> 
+          
         
         
                         <tr onmouseout="jokr_stop()" onmouseover="jokr_start()">
@@ -143,7 +237,7 @@
               <a href="https://arxiv.org/abs/2106.09679">
                 <papertitle>JOKR: Joint Keypoint Representation for Unsupervised Cross-Domain Motion Retargeting</papertitle>
               </a> <br>
-              <a href="mailto:ron.mokady@gmail.com">Ron Mokady</a>,
+              <a href="https://rmokady.github.io/">Ron Mokady</a>,
               <a href="mailto:rotemtzaban@mail.tau.ac.il ">Rotem Tzaban</a>,
               <strong>Sagie Benaim</strong>,
               <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>, 
@@ -424,7 +518,7 @@ Two new metrics for evaluating generative models in the class-conditional image 
               </a>
               <br> 
               <strong>Sagie Benaim*</strong>,
-              <a href="mailto:ron.mokady@gmail.com">Ron Mokday*</a>,
+              <a href="https://rmokady.github.io/">Ron Mokday*</a>,
               <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>,
               <a href="https://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>,
               <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
@@ -561,7 +655,7 @@ Two new metrics for evaluating generative models in the class-conditional image 
                 <papertitle>Masked Based Unsupervised Content Transfer</papertitle>
               </a>
               <br>
-              <a href="mailto:ron.mokady@gmail.com">Ron Mokday</a>,
+              <a href="https://rmokady.github.io/">Ron Mokday</a>,
               <strong>Sagie Benaim</strong>,
               <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>,
               <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
