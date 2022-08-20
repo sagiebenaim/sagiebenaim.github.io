@@ -105,6 +105,11 @@
               </p>
             </td>
           </tr> 
+          
+          
+          
+          
+          
         
         <tr onmouseout="target_stop()" onmouseover="target_start()">
         
@@ -146,6 +151,53 @@
               <p></p>
               <p>
                A new style (essense) transfer method that incoporates higher level abstractions then textures and colors. TargetCLIP introduces a blending operator that combines the powerful StyleGAN2 generator with a semantic network CLIP to achieve a more natural blending than with each model separately.
+              </p>
+            </td>
+          </tr> 
+          
+          
+         
+          
+          
+          <tr onmouseout="video_object_stop()" onmouseover="video_object_start()">
+        
+           
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+
+		              <br>              <br>              
+              <div class="one">
+                <div class="two" id='video_object_image'>
+                  <img src='images/video_object_after.gif' width="180"></div>
+                <img src='images/video_object_before.gif' width="180">
+              </div>
+
+              <script type="text/javascript">
+                function video_object_start() {
+                  document.getElementById('video_object_image').style.opacity = "1";
+                }
+
+                function video_object_stop() {
+                  document.getElementById('video_object_image').style.opacity = "0";
+                }
+                video_object_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+
+
+              <a href="https://arxiv.org/abs/2206.12396">
+                <papertitle>Text-Driven Stylization of Video Objects</papertitle>
+              </a> <br>
+              <a href="mailto:201804446@post.au.dk">Sebastian Loeschcke</a>,
+              <a href="https://sergebelongie.github.io/"> Serge Belongie</a>,
+              <strong>Sagie Benaim</strong>
+              <br>
+              <em>ECCV Workshop on AI for Creative Video Editing and Understanding</em>, 2022. 
+              <a href="https://arxiv.org/abs/2206.12396">arXiv</a> /
+              <a href="https://sloeschcke.github.io/Text-Driven-Stylization-of-Video-Objects/">project page</a> 
+              <p></p>
+              <p>
+              A method for stylizing video objects in an intuitive and semantic manner following a user-specified text prompt.
               </p>
             </td>
           </tr> 
