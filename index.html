@@ -65,8 +65,54 @@
         </tbody></table>
         
         
-        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
+        
+                <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br> 
+              <div class="one">
+                <div class="two" id='pnf_image'>
+                  <img src='images/pnf.png' width="180"></div>
+                <img src='images/pnf.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function pnf_start() {
+                  document.getElementById('pnf_image').style.opacity = "1";
+                }
+
+                function pnf_stop() {
+                  document.getElementById('pnf_image').style.opacity = "0";
+                }
+		pnf_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="">
+                <papertitle>Polynomial Neural Fields for Subband Decomposition</papertitle>
+              </a> <br>
+               <a href="https://www.guandaoyang.com/">Guandao Yang*</a>,
+               <strong>Sagie Benaim*</strong>,
+               <a href="https://varunjampani.github.io/">Varun Jampani</a>,
+                <a href="https://www.kylegenova.com/">Kyle Genova</a>,
+             <a href="https://www.kylegenova.com/">Jonathan T. Barron</a>,
+             <a href="https://www.cs.princeton.edu/~funk/">Thomas Funkhouser</a>,
+              <a href="http://home.bharathh.info/">Bharath Hariharan</a>,
+               <a href="https://sergebelongie.github.io/">Serge Belongie</a>. 
+               *Equal contribution. 
+               <br>
+              <em>NeurIPS</em>, 2022. 
+              <p>
+		We propose a new class of neural fields called
+        basis-encoded polynomial neural fields (PNFs). The key advantage of a PNF is
+that it can represent a signal as a composition of a number of manipulable and
+interpretable components without losing the merits of neural fields representation.
+              </p>
+            </td>
+          </tr> 
+          
+          
+        
+        
         
                 <tr onmouseout="volumetric_stop()" onmouseover="volumetric_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
@@ -105,9 +151,6 @@
               </p>
             </td>
           </tr> 
-          
-          
-          
           
           
         
@@ -235,7 +278,7 @@
               <a href="mailto:Roibaron4@gmail.com">Roi Bar-On*</a>,
               <a href="mailto:guanzhi97@gmail.com">Richard Liu*</a>,  
               <strong>Sagie Benaim</strong>,
-              <a href="https://people.cs.uchicago.edu/~ranahanocka/">Rana Hanocka</a>
+              <a href="https://people.cs.uchicago.edu/~ranahanocka/">Rana Hanocka</a>. 
               <br>
               <em>CVPR</em>, 2022. &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
               <br>
@@ -422,7 +465,7 @@ N training samples.
               </a> <br>
               <a href="mailto:shelly.sheynin3@gmail.com">Shelly Sheynin*</a>,
               <strong>Sagie Benaim*</strong>,
-              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>. *Equal Contribution.
               <br>
               <em>ICCV</em>, 2021.
               <a href="https://shellysheynin.github.io/HTDG/">project page</a> /
@@ -656,7 +699,7 @@ Two new metrics for evaluating generative models in the class-conditional image 
               <a href="https://rmokady.github.io/">Ron Mokday*</a>,
               <a href="https://www.cs.tau.ac.il/~amberman/">Amit Bermano</a>,
               <a href="https://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>,
-              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>. *Equal contribution. 
               <br>
               <em>Computer Graphics Forum</em>, 2020. 
               <br>
@@ -700,7 +743,7 @@ Two new metrics for evaluating generative models in the class-conditional image 
               <br>
               <a href="https://www.gurshir.com/">Shir Gur*</a>,
               <strong>Sagie Benaim*</strong>,
-              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a> 
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>. *Equal contribution.  
               <br>
               <em>NeurIPS</em>, 2020. 
               <br>
@@ -1062,7 +1105,7 @@ exists in samples a in A, and some additional information.
               <br>         
               <strong>Sagie Benaim*</strong>,              
               <a href="https://www.tau.ac.il/~tomerga2/">Tomer Galanti*</a>, 
-              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>               
+              <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>. *Equal contribution.                
               <br>
               <em>ECCV</em>, 2018.
               <br>
