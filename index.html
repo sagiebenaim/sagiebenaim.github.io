@@ -111,10 +111,7 @@ interpretable components without losing the merits of neural fields representati
           </tr> 
           
           
-        
-        
-        
-                <tr onmouseout="volumetric_stop()" onmouseover="volumetric_start()">
+                          <tr onmouseout="volumetric_stop()" onmouseover="volumetric_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
             <br> <br>
               <div class="one">
@@ -148,6 +145,50 @@ interpretable components without losing the merits of neural fields representati
               <p></p>
               <p>
                We propose a framework for disentangling a 3D scene into a forground and background volumetric representations and show a variety of downstream applications involving 3D manipulation.
+              </p>
+            </td>
+          </tr> 
+          
+          
+        
+        
+        
+                <tr onmouseout="assessing_stop()" onmouseover="assessing_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br> <br>
+              <div class="one">
+                <div class="two" id='assessing_image'>
+                  <img src='images/assessing_all.png' width="180"></div>
+                <img src='images/assessing_all.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function assessing_start() {
+                  document.getElementById('assessing_image').style.opacity = "1";
+                }
+
+                function assessing_stop() {
+                  document.getElementById('assessing_image').style.opacity = "0";
+                }
+		assessing_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="hhttps://arxiv.org/abs/2211.09782">
+                <papertitle>Assessing Neural Network Robustness via Adversarial Pivotal Tuning</papertitle>
+              </a> <br>
+
+        <a href="https://captaine.github.io/"> Peter Ebert Christensen</a>,
+        <a href="https://vesteinn.is/"> Vésteinn Snæbjarnarson</a>,
+          <a href="https://addtt.github.io/"> Andrea Dittadi</a>,
+        <a href="https://sergebelongie.github.io/"> Serge Belongie</a>
+        <strong>Sagie Benaim</strong>,
+              <br>
+              <em>arXiv</em>, 2022. 
+              <a href="https://captaine.github.io/apt/">project page</a> /
+              <a href="https://arxiv.org/abs/2211.09782">arXiv</a> 
+              <p></p>
+              <p>
+               We propose a framework for generation of photorealistic images that can fool a classifier using automatic semantic manipulations.
               </p>
             </td>
           </tr> 
@@ -366,7 +407,7 @@ interpretable components without losing the merits of neural fields representati
             <td style="padding:0;width:40%;max-width:40%">
 		
 
-              <a href="https://arxiv.org/abs/2105.14609">
+              <a href="http://www.cs.tau.ac.il/~wolf/papers/FewGAN.pdf">
                 <papertitle>FewGAN: Generating from the Joint Distribution of a Few Images</papertitle>
               </a>               <br>
               <a href="mailto:lior1990@gmail.com">Lior Ben Moshe</a>,
