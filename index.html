@@ -70,6 +70,50 @@ I am also interested in how disentangled and generative models can be used to be
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
+        <tr onmouseout="disctokens_stop()" onmouseover="disctokens_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br> 
+              <div class="one">
+                <div class="two" id='pnf_image'>
+                  <img src='images/disctokens.png' width="180"></div>
+                <img src='images/disctokens.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function disctokens_start() {
+                  document.getElementById('disctokens_image').style.opacity = "1";
+                }
+
+                function disctokens_stop() {
+                  document.getElementById('disctokens_image').style.opacity = "0";
+                }
+		disctokens_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+            <br><br><br>
+              <a href="https://arxiv.org/abs/2303.17155">
+                <papertitle>Discriminative Class Tokens for Text-to-Image Diffusion Models</papertitle>
+              </a> <br>
+               <a href="https://idansc.github.io/">Idan Schwartz*</a>,
+               <a href="https://vesteinn.is/">Vésteinn Snæbjarnarson*</a>,
+               <a href="https://hila-chefer.github.io/">Hila Chefer</a>,
+               <a href="https://rycolab.io/">Ryan Cotterell</a>,
+               <a href="http://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>,
+               <a href="https://sergebelongie.github.io/">Serge Belongie</a>, 
+               <strong>Sagie Benaim</strong>.
+               <br>
+              *Equal contribution. 
+              <em>ICCV</em>, 2023. 
+              <a href="https://vesteinn.github.io/disco/">project page</a> /
+              <a href="https://arxiv.org/abs/2303.17155">arXiv</a>  /
+              <a href="https://github.com/idansc/discriminative_class_tokens">code</a>
+     
+              <p>
+ We propose a non-invasive fine-tuning technique fro Text-to-Image Diffusion Models that capitalizes on the expressive potential of free-form text while achieving high accuracy through discriminative signals from a pretrained classifier, which guides the generation. This is done by iteratively modifying the embedding of a single input token of a text-to-image diffusion model, using the classifier, by steering generated images toward a given target class. 
+              </p>
+            </td>
+          </tr> 
+        
                 <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
             <br> 
