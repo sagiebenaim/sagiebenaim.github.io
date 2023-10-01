@@ -29,10 +29,9 @@
               <p style="text-align:center">
                 <name>Sagie Benaim</name>
               </p>
-              <p>I am a Postdoc at <a href=https://di.ku.dk/english/>DIKU</a> working with Prof. 
+             I am an Assistant Professor (senior lecturer) at the <a href=https://www.cs.huji.ac.il/> School of Computer Science and Engineering at the Hebrew University of Jerusalem</a>. Previously, I was a postdoc at <a href=https://di.ku.dk/english/>DIKU</a> working with Prof. 
               <a href=https://www.linkedin.com/in/sergebelongie/?originalSubdomain=dk>Serge Belongie</a> 
-             and  a member of the <a href=https://di.ku.dk/ai-centre>Pioneer Center for AI</a>.
-             I am also an incoming Assistant Professor at the <a href=https://www.cs.huji.ac.il/> School of Computer Science and Engineering at the Hebrew University of Jerusalem</a>. Previously, I was a PhD candidate at Tel Aviv University, working in the Deep Learning Lab under the supervision of Prof. 
+             and  a member of the <a href=https://di.ku.dk/ai-centre>Pioneer Center for AI</a>. Before that, I was a PhD candidate at Tel Aviv University, working in the Deep Learning Lab under the supervision of Prof. 
               <a href=https://www.cs.tau.ac.il/~wolf/>Lior Wolf</a>.
                             </p>
               <p>
@@ -70,12 +69,57 @@ I am also interested in how disentangled and generative models can be used to be
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
+        <tr onmouseout="teachingcars_stop()" onmouseover="teachingcars_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+            <br>
+              <div class="one">
+                <div class="two" id='teachingcars_image'>
+                  <img src='images/teachingcars.png' width="180"></div>
+                <img src='images/teachingcars.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function teachingcars_start() {
+                  document.getElementById('teachingcars_image').style.opacity = "1";
+                }
+
+                function eachingcars_stop() {
+                  document.getElementById('teachingcars_image').style.opacity = "0";
+                }
+		teachingcars_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+            
+              <a href="https://openreview.net/forum?id=f6rQJ83ycb">
+                <papertitle>Teaching Cars to See in a Day: Unsupervised Object Discovery with Reward Fine-tuning</papertitle>
+              </a> <br>
+               <a href="https://www.cs.cornell.edu/~katieluo/">Katie Z Luo</a>,
+               <a href="https://www.linkedin.com/in/zhenzhen-liu-7623a7166/">Zhenzhen Liu</a>,
+               <a href="https://www.cs.cornell.edu/~xchen/">Xiangyu Chen</a>,
+               <a href="https://yurongyou.com/">Yurong You</a>,
+               <strong>Sagie Benaim</strong>,                
+               <a href="https://www.cs.cornell.edu/~cpphoo/">Cheng Perng Phoo</a>,
+               <a href="https://www.mae.cornell.edu/faculty-directory/mark-campbell">Mark Campbell</a>, 
+               <a href="https://wensun.github.io/">Wen Sun</a>, 
+               <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>, 
+               <a href="https://www.cs.cornell.edu/~kilian/">Kilian Q Weinberger</a>.
+               <br>
+              <em>NeurIPS</em>, 2023. 
+              <a href="https://openreview.net/forum?id=f6rQJ83ycb">arXiv</a>  
+     
+              <p>
+We propose to adapt similar RL-based methods to Reinforcement Learning from Human Feedback (RLHF) for the task of unsupervised object discovery, i.e. learning to detect objects from LiDAR points without any training labels. 
+              </p>
+            </td>
+          </tr> 
+        
+        
         <tr onmouseout="disctokens_stop()" onmouseover="disctokens_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
-            <br> 
+
               <div class="one">
-                <div class="two" id='pnf_image'>
-                  <img src='images/disctokens.png' width="180"></div>
+                <div class="two" id='disctokens_image'>
+                  <img src='images/disctokens_after.gif' width="180"></div>
                 <img src='images/disctokens.png' width="180">
               </div>
               <script type="text/javascript">
@@ -90,7 +134,7 @@ I am also interested in how disentangled and generative models can be used to be
               </script>
             </td>
             <td style="padding:0;width:40%;max-width:40%">
-            <br><br><br>
+            <br><br>
               <a href="https://arxiv.org/abs/2303.17155">
                 <papertitle>Discriminative Class Tokens for Text-to-Image Diffusion Models</papertitle>
               </a> <br>
