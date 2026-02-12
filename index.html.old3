@@ -36,7 +36,7 @@
              and a member of the <a href=https://di.ku.dk/ai-centre>Pioneer Center for AI</a>. Before that, I completed my PhD at Tel Aviv University under the supervision of Prof. <a href=https://www.cs.tau.ac.il/~wolf/>Lior Wolf</a>.
                             </p>
               <p>
-              My research is focused on 3D and Generative AI. In particular, I aim to find efficient methods for reconstructing, generating, and understanding the dynamic 3D world. To this end, I use tools from computer vision, machine learning, and computer graphics. 
+              My research is focused focused on 3D and Generative AI. In particular, I aim to find efficient methods for reconstructing, generating, and understanding the dynamic 3D world. To this end, I use tools from computer vision, machine learning, and computer graphics. 
               </p>
               <p>
               <strong>I am always seeking excellent students and postdocs. If you are interested, please contact me! </strong> As an ELLIS Scholar, I also welcome applications through the 
@@ -71,38 +71,6 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
         
-        <tr onmouseout="splat_stop()" onmouseover="splat_start()">
-            <td style="padding:2.5%;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='splat_image'>
-                  <img src='images/splat.png' width="180"></div> <img src='images/splat.png' width="180">
-              </div>
-              <script type="text/javascript">
-                function splat_start() { document.getElementById('splat_image').style.opacity = "1"; }
-                function splat_stop() { document.getElementById('splat_image').style.opacity = "0"; }
-                splat_stop()
-              </script>
-            </td>
-            <td style="padding:0;width:40%;max-width:40%">
-              <a href="https://arxiv.org/abs/2602.06032">
-                <papertitle>Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction for 3D-Aware Distillation</papertitle>
-              </a>
-              <br>
-              <a href="https://il.linkedin.com/in/david-shavin-952308222">David Shavin</a>, 
-              <strong>Sagie Benaim</strong>.
-              <br>
-              <em>ICLR</em>, 2026.
-              <br>
-              <a href="https://davidshavin4.github.io/Splat-and-Distill/">project page</a> /
-              <a href="https://arxiv.org/abs/2602.06032">arXiv</a> /
-              <a href="https://github.com/davidshavin4/Splat-and-Distill">code</a>
-              <p>
-              We introduce a framework that instills robust 3D awareness into 2D Vision Foundation Models (VFMs) by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. This enables the distillation of geometrically grounded knowledge, significantly improving performance on downstream tasks such as depth estimation and semantic segmentation.
-              </p>
-            </td>
-        </tr>
-        
-        
         
         <tr onmouseout="structurally_stop()" onmouseover="structurally_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
@@ -117,7 +85,7 @@
                 structurally_stop()
               </script>
             </td>
-            <td style="padding:0;width:40%;max-width:40%">
+            <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2502.14789">
                 <papertitle>Structurally Disentangled Feature Fields Distillation for 3D Understanding and Editing</papertitle>
               </a>
@@ -142,7 +110,6 @@
 	
         <tr onmouseout="legs_stop()" onmouseover="legs_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
-            <br> <br>
               <div class="one">
                 <div class="two" id='legs_image'>
                   <img src='images/legs.gif' width="180"></div>
