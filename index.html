@@ -71,6 +71,106 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
         
+        
+        <tr onmouseout="letitsnow_stop()" onmouseover="letitsnow_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='letitsnow_image'>
+                  <img src='images/letitsnow.gif' width="180"></div>
+                <img src='images/letitsnow.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function letitsnow_start() { document.getElementById('letitsnow_image').style.opacity = "1"; }
+                function letitsnow_stop() { document.getElementById('letitsnow_image').style.opacity = "0"; }
+                letitsnow_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://galfiebelman.github.io/let-it-snow/">
+                <papertitle>Let it Snow! Animating Static Gaussian Scenes With Dynamic Weather Effects</papertitle>
+              </a>
+              <br>
+              <a href="https://galfiebelman.github.io/">Gal Fiebelman</a>, 
+              <a href="https://www.cs.tau.ac.il/~hadarelor/">Hadar Averbuch-Elor</a>, 
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>CVPR</em>, 2026.
+              <br>
+              <a href="https://galfiebelman.github.io/let-it-snow/">project page</a> /
+              <a href="https://arxiv.org/abs/2504.05296">arXiv</a>
+              <p>
+              We present a novel hybrid framework that combines Gaussian-particle representations for incorporating physically-based global weather effects into static 3D Gaussian Splatting scenes, correctly handling the interactions of dynamic elements with the static scene.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="rad_stop()" onmouseover="rad_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rad_image'>
+                  <img src='images/rad.png' width="180"></div>
+                <img src='images/rad.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function rad_start() { document.getElementById('rad_image').style.opacity = "1"; }
+                function rad_stop() { document.getElementById('rad_image').style.opacity = "0"; }
+                rad_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://michaelbaltaxe.github.io/rad/">
+                <papertitle>RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes</papertitle>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/michael-baltaxe-5146bb4/?originalSubdomain=il">Michael Baltaxe</a>, 
+              <a href="https://sites.google.com/view/danlevi/home">Dan Levi</a>, 
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>CVPR (Findings)</em>, 2026.
+              <br>
+              <a href="https://michaelbaltaxe.github.io/rad/">project page</a> /
+              <a href="https://arxiv.org/abs/2602.09532">arXiv</a>
+              <p>
+              We propose RAD, a retrieval-augmented framework that approximates the benefits of multi-view stereo by utilizing retrieved neighbors as structural geometric proxies to improve monocular metric depth estimation for underrepresented classes in complex scenes.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="semantic_moments_stop()" onmouseover="semantic_moments_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='semantic_moments_image'>
+                  <img src='images/semantic_moments.png' width="180"></div>
+                <img src='images/semantic_moments.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function semantic_moments_start() { document.getElementById('semantic_moments_image').style.opacity = "1"; }
+                function semantic_moments_stop() { document.getElementById('semantic_moments_image').style.opacity = "0"; }
+                semantic_moments_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://arxiv.org/abs/2602.09146">
+                <papertitle>SemanticMoments: Training-Free Motion Similarity via Third Moment Features</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/saarhub">Saar Huberman</a>, 
+              <a href="https://kfirgoldberg.github.io/">Kfir Goldberg</a>, 
+              <a href="https://orpatashnik.github.io/">Or Patashnik</a>, 
+              <strong>Sagie Benaim</strong>,
+              <a href="https://rmokady.github.io/">Ron Mokady</a>.
+              <br>
+              <em>CVPR (Findings)</em>, 2026.
+              <br>
+              <a href="https://github.com/saarhub/semantic-moments">code</a> /
+              <a href="https://arxiv.org/abs/2602.09146">arXiv</a> 
+              <p>
+              We propose SemanticMoments, a simple, training-free method that computes temporal statistics over features from pre-trained semantic models to retrieve videos based on semantic motion, addressing the bias of existing approaches that overly rely on static appearance.
+              </p>
+            </td>
+        </tr>
+        
+        
         <tr onmouseout="splat_stop()" onmouseover="splat_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
               <div class="one">
