@@ -70,6 +70,77 @@
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
+        <tr onmouseout="dype_stop()" onmouseover="dype_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dype_image'>
+                  <img src='images/dype.png' width="180"></div>
+                <img src='images/dype.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function dype_start() { document.getElementById('dype_image').style.opacity = "1"; }
+                function dype_stop() { document.getElementById('dype_image').style.opacity = "0"; }
+                dype_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://noamissachar.github.io/DyPE/">
+                <papertitle>DyPE: Dynamic Position Extrapolation for Ultra High Resolution Diffusion</papertitle>
+              </a>
+              <br>
+              <a href="https://il.linkedin.com/in/noam-issachar-659b751b7">Noam Issachar*</a>, 
+              <a href="https://guyyariv.github.io/">Guy Yariv*</a>, 
+              <strong>Sagie Benaim</strong>,
+              <a href="https://www.cs.huji.ac.il/~adiyoss/">Yossi Adi</a>,
+              <a href="https://www.cs.huji.ac.il/~danix/">Dani Lischinski</a>,
+              <a href="https://www.cs.huji.ac.il/w~raananf/">Raanan Fattal</a>.
+              <br>
+              <em>ICML</em>, 2026.
+              <br>
+              <a href="https://noamissachar.github.io/DyPE/">project page</a> /
+              <a href="https://arxiv.org/abs/2510.20766">arXiv</a> /
+              <a href="https://github.com/guyyariv/DyPE">code</a>
+              <p>
+              DyPE lets pre-trained diffusion transformers generate ultra-high-res images (16M+ px) without retraining or extra cost, by matching positional encoding extrapolation to diffusion's shift from low-freq structures to high-freq details.
+              </p>
+            </td>
+        </tr>
+        
+        
+        <tr onmouseout="lami_stop()" onmouseover="lami_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lami_image'>
+                  <img src='images/lami.png' width="180"></div>
+                <img src='images/lami.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function lami_start() { document.getElementById('lami_image').style.opacity = "1"; }
+                function lami_stop() { document.getElementById('lami_image').style.opacity = "0"; }
+                lami_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://guyyariv.github.io/LaMI/">
+                <papertitle>LaMI: Augmenting Large Language Models via Late Multi-Image Fusion</papertitle>
+              </a>
+              <br>
+              <a href="https://guyyariv.github.io/">Guy Yariv</a>, 
+              <a href="https://idansc.github.io/">Idan Schwartz</a>, 
+              <a href="https://www.cs.huji.ac.il/~adiyoss/">Yossi Adi*</a>, 
+              <strong>Sagie Benaim*</strong>.
+              <br>
+              <em>ACL</em>, 2026. &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://guyyariv.github.io/LaMI/">project page</a> /
+              <a href="https://arxiv.org/abs/2406.13621v2">arXiv</a> /
+              <a href="https://github.com/guyyariv/LaMI">code</a>
+              <p>
+              We improve large language models' visual commonsense by generating multiple images from text prompts and integrating them into decision-making via late fusion, boosting performance on visual commonsense reasoning and NLP tasks.
+              </p>
+            </td>
+        </tr>
+        
         
         
         <tr onmouseout="letitsnow_stop()" onmouseover="letitsnow_start()">
