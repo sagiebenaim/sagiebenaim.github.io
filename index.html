@@ -70,6 +70,73 @@
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
         
+        <tr onmouseout="globalsplat_stop()" onmouseover="globalsplat_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <div class="two" id='globalsplat_image' style="top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;"><video style="width:100%;height:100%;object-fit:contain;" muted autoplay loop>
+                  <source src="images/globalsplat_hover.mp4" type="video/mp4">
+                </video></div>
+                <img src='images/globalsplat.jpg' style="width:100%;height:100%;object-fit:contain;" alt="GlobalSplat">
+              </div>
+              <script type="text/javascript">
+                function globalsplat_start() { document.getElementById('globalsplat_image').style.opacity = "1"; }
+                function globalsplat_stop() { document.getElementById('globalsplat_image').style.opacity = "0"; }
+                globalsplat_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://r-itk.github.io/globalsplat/">
+                <papertitle>GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/R-Itk">Roni Itkin</a>,
+              <a href="https://il.linkedin.com/in/noam-issachar-659b751b7">Noam Issachar</a>,
+              <a href="https://www.linkedin.com/in/ykeypur">Yehonatan Keypur</a>,
+              <a href="https://rover-xingyu.github.io/">Xingyu Chen</a>,
+              <a href="https://apchenstu.github.io/">Anpei Chen</a>,
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>ECCV</em>, 2026.
+              <br>
+              <a href="https://r-itk.github.io/globalsplat/">project page</a> /
+              <a href="https://arxiv.org/abs/2604.15284">arXiv</a> /
+              <a href="https://github.com/R-Itk/globalsplat">code</a>
+              <p>
+              GlobalSplat learns a compact set of global scene tokens to encode multi-view input and resolve cross-view correspondences before decoding 3D geometry, achieving competitive novel-view synthesis with as few as 16K Gaussians and inference under 78ms.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="mvforcing_stop()" onmouseover="mvforcing_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mvforcing_image'>
+                  <img src='images/mv_forcing.gif' width="180"></div>
+                <img src='images/mv_forcing.gif' width="180">
+              </div>
+              <script type="text/javascript">
+                function mvforcing_start() { document.getElementById('mvforcing_image').style.opacity = "1"; }
+                function mvforcing_stop() { document.getElementById('mvforcing_image').style.opacity = "0"; }
+                mvforcing_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="#">
+                <papertitle>MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing</papertitle>
+              </a>
+              <br>
+              <a href="https://galfiebelman.github.io/">Gal Fiebelman</a>,
+              <a href="https://www.hadarelor.com/">Hadar Averbuch-Elor</a>,
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>ECCV</em>, 2026.
+              <br>
+              <p>
+              We tackle the task of long multi-view video generation: generating temporally coherent video from multiple viewpoints simultaneously, at arbitrary lengths and viewpoint counts. MV-Forcing bridges the gap between temporal and view-wise autoregression using a 4D geometric prior, enabling geometrically consistent generation of dynamic scenes.
+              </p>
+            </td>
+        </tr>
+
         <tr onmouseout="dype_stop()" onmouseover="dype_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
               <div class="one">
@@ -162,7 +229,7 @@
               </a>
               <br>
               <a href="https://galfiebelman.github.io/">Gal Fiebelman</a>, 
-              <a href="https://www.cs.tau.ac.il/~hadarelor/">Hadar Averbuch-Elor</a>, 
+              <a href="https://www.hadarelor.com/">Hadar Averbuch-Elor</a>, 
               <strong>Sagie Benaim</strong>.
               <br>
               <em>CVPR</em>, 2026.
@@ -334,7 +401,7 @@
               
               <br>
               
-              <a href="https://www.linkedin.com/in/shai-krakovski-8144083b/">Shai Krakovsky</a>, <a href="https://galfiebelman.github.io/">Gal Fiebelman</a>, <strong>Sagie Benaim</strong>, <a href="https://www.cs.tau.ac.il/~hadarelor/">Hadar A. Elor</a>.
+              <a href="https://www.linkedin.com/in/shai-krakovski-8144083b/">Shai Krakovsky</a>, <a href="https://galfiebelman.github.io/">Gal Fiebelman</a>, <strong>Sagie Benaim</strong>, <a href="https://www.hadarelor.com/">Hadar A. Elor</a>.
               <br>
               <em>SIGGRAPH Asia</em>, 2025.
               <br>
