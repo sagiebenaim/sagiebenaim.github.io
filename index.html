@@ -68,8 +68,144 @@
         </tbody></table>
         
         
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>   
-        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="cns_stop()" onmouseover="cns_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <div class="two" id='cns_image' style="top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:white;"><video style="width:100%;height:100%;object-fit:contain;" muted autoplay loop>
+                  <source src="images/cns_hover.mp4" type="video/mp4">
+                </video></div>
+                <img src='images/cns.jpg' style="width:100%;height:100%;object-fit:contain;" alt="Colored Noise Diffusion Sampling">
+              </div>
+              <script type="text/javascript">
+                function cns_start() { document.getElementById('cns_image').style.opacity = "1"; }
+                function cns_stop() { document.getElementById('cns_image').style.opacity = "0"; }
+                cns_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://hadardavidson.github.io/CNS/">
+                <papertitle>Colored Noise Diffusion Sampling</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/hadardavidson">Hadar Davidson</a>,
+              <a href="https://il.linkedin.com/in/noam-issachar-659b751b7">Noam Issachar</a>,
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>NeurIPS</em>, 2026. &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://hadardavidson.github.io/CNS/">project page</a> /
+              <a href="https://arxiv.org/abs/2605.30332">arXiv</a>
+              <p>
+              A training-free, plug-and-play SDE sampler that exploits the spectral bias of diffusion models, injecting colored noise whose energy is steered toward the frequency bands that are still unresolved, and improving FID on SiT and JiT at no extra cost.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="macro_stop()" onmouseover="macro_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <div class="two" id='macro_image' style="top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                  <img src='images/macro.jpg' style="width:100%;height:100%;object-fit:contain;"></div>
+                <img src='images/macro.jpg' style="width:100%;height:100%;object-fit:contain;" alt="MACRO">
+              </div>
+              <script type="text/javascript">
+                function macro_start() { document.getElementById('macro_image').style.opacity = "1"; }
+                function macro_stop() { document.getElementById('macro_image').style.opacity = "0"; }
+                macro_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://nitzanhod.github.io/MACRO">
+                <papertitle>MACRO: Training-free Multi-plane Attention for Closeup Render Optimization</papertitle>
+              </a>
+              <br>
+              <a href="https://nitzanhod.github.io/">Nitzan Hodos</a>,
+              Roy Amoyal,
+              Lior Fritz,
+              Ianir Ideses,
+              <strong>Sagie Benaim</strong>,
+              Netalee Efrat.
+              <br>
+              <em>NeurIPS</em>, 2026. &nbsp <font color="red"><strong>(Spotlight Presentation)</strong></font>
+              <br>
+              <a href="https://nitzanhod.github.io/MACRO">project page</a> /
+              <a href="https://arxiv.org/abs/2607.03875">arXiv</a>
+              <p>
+              A training-free method for sharp close-up novel views of 3D scenes: the target view is decomposed into depth planes and scale-aware attention to the reference images resolves the scale mismatch between close-up and reference views.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="trajloc_stop()" onmouseover="trajloc_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <div class="two" id='trajloc_image' style="top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;"><video style="width:100%;height:100%;object-fit:contain;" muted autoplay loop>
+                  <source src="images/trajloc_hover.mp4" type="video/mp4">
+                </video></div>
+                <img src='images/trajloc.jpg' style="width:100%;height:100%;object-fit:contain;" alt="TrajLoc">
+              </div>
+              <script type="text/javascript">
+                function trajloc_start() { document.getElementById('trajloc_image').style.opacity = "1"; }
+                function trajloc_stop() { document.getElementById('trajloc_image').style.opacity = "0"; }
+                trajloc_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://sela-omer.github.io/traj-loc/">
+                <papertitle>TrajLoc: Trajectory-Attention Localization for Multi-Object Motion Control</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/Sela-Omer">Omer Sela</a>,
+              Inbar Huberman-Spiegelglas,
+              Michael Rotman,
+              <strong>Sagie Benaim</strong>,
+              Avi Ben-Cohen.
+              <br>
+              <em>NeurIPS</em>, 2026.
+              <br>
+              <a href="https://sela-omer.github.io/traj-loc/">project page</a> /
+              <a href="https://arxiv.org/abs/2607.00861">arXiv</a> /
+              <a href="https://github.com/Sela-Omer/traj-loc">code</a>
+              <p>
+              We control the motion of multiple objects in image-to-video generation by applying per-object Gaussian heatmap constraints inside the attention layers, keeping each object on its trajectory even with intersecting paths and occlusions.
+              </p>
+            </td>
+        </tr>
+
+        <tr onmouseout="mvrag_stop()" onmouseover="mvrag_start()">
+            <td style="padding:2.5%;width:25%;vertical-align:middle">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <div class="two" id='mvrag_image' style="top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+                  <img src='images/mvrag.jpg' style="width:100%;height:100%;object-fit:contain;"></div>
+                <img src='images/mvrag.jpg' style="width:100%;height:100%;object-fit:contain;" alt="MV-RAG">
+              </div>
+              <script type="text/javascript">
+                function mvrag_start() { document.getElementById('mvrag_image').style.opacity = "1"; }
+                function mvrag_stop() { document.getElementById('mvrag_image').style.opacity = "0"; }
+                mvrag_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:40%;max-width:40%">
+              <a href="https://yosefdayani.github.io/MV-RAG">
+                <papertitle>MV-RAG: Retrieval Augmented Multiview Diffusion</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/yosefdayani">Yosef Dayani</a>,
+              Omer Benishu,
+              <strong>Sagie Benaim</strong>.
+              <br>
+              <em>TMLR</em>, 2026.
+              <br>
+              <a href="https://yosefdayani.github.io/MV-RAG">project page</a> /
+              <a href="https://arxiv.org/abs/2508.16577">arXiv</a>
+              <p>
+              A text-to-3D approach that retrieves relevant real 2D images and conditions a multiview diffusion model on them, enabling consistent and faithful 3D generation of rare and out-of-domain concepts.
+              </p>
+            </td>
+        </tr>
+
         <tr onmouseout="globalsplat_stop()" onmouseover="globalsplat_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle">
               <div class="one" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
